@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Контакт и форма за запитване- Виена Турс</title>
+    <meta name="description" content="Свържете се с нас за запитвания и резервации на турове във Виена. Намерете ни на Freudplatz 2 или ни пишете чрез формата за контакт.">
+    <meta name="keywords" content="контакт, резервация, Виена, екскурзовод">
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <header>
+    <a href="Начало.html" style="text-decoration: none; color: inherit;">
+        <h1>Виена Турс</h1>
+    </a>
+   
+</header>
+<nav>
+    <a href="index.html" >Начало</a>
+    <a href="ekip.html">Екип</a>
+    <a href="deinost.html">Дейност</a>
+    <a href="kontakt.html" class="active">Контакт</a>
+    <a href="galeriya.html">Галерия</a>
+    <a href="novini.html">Новини</a>
+    <a href="otzivi.html">Отзиви</a>
+</nav>
+<div class="container">
+    <h2 class="section-title">Свържете се с нас</h2>
+    
+    <div class="row">
+        <section class="col" style="flex: 1.5;">
+            <h3>Къде да ни откриете?</h3>
+            <p><strong>Адрес:</strong> Freudplatz 2, 1020 Wien, Австрия</p>
+            <p><strong>Телефон:</strong> +43 147 8457 659/ +359 887 458 369</p>
+            <p><strong>Имейл:</strong> viennatours@gmail.com</p>
+            
+            <div class="video-box" style="background: none; padding: 0; border: 2px solid #D4AF37;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1096.5021885334488!2d16.403616605814673!3d48.214768868245045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0717492aefd1%3A0xb441e4f7009c1a6f!2sFreudpl.%202%2C%201020%20Wien%2C%20Austria!5e0!3m2!1sen!2sbg!4v1767626371750!5m2!1sen!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+       <section class="col">
+            <h3>Форма за запитване</h3>
+            <form action="">
+                <table class="contact-table">
+                    <tr>
+                        <th colspan="2"><h4>Данни за резервация</h4></th>
+                    </tr>
+                    <tr>
+                        <td><label for="username">Име и фамилия:</label></td>
+                        <td><input type="text" id="username" placeholder="Име и фамилия" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email" placeholder="Имейл адрес"required></td>
+                    </tr>
+                    <tr>
+                        <td>Тип обиколка:</td>
+                        <td>
+                            <select name="tour_type">
+                                <option value="pedestrian">Пешеходна (Innere Stadt)</option>
+                                <option value="museum1" selected>Белведере</option>
+                                <option value="museum2">Албертина</option>
+                                <option value="bus">С автобус</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="msg">Вашето съобщение:</label></td>
+                        <td><textarea id="msg" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" style="padding-top: 20px;">
+                            <input type="submit" value="ИЗПРАТИ" class="form-btn">
+                        </th>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="logo.png" alt="Vienna Tours Logo" class="footer-logo">
+                <p><strong>Vienna Tours</strong></p>
+                <p>Freudplatz 2, 1020 Wien</p>
+                <br>
+                <p><strong>Място за среща:</strong></p>
+                <p>Freudplatz 2</p>
+                <p>1020 Vienna</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Работно време:</h4>
+                <p>Понеделник – Неделя</p>
+                <p>09:00 – 18:00</p>
+                
+                <h4 class="contact-title">Контакт:</h4>
+                <p>+43 147 8457 659</p>
+                <p>+359 887 458 369</p>
+                <p><a href="mailto:viennatours@gmail.com" class="footer-link">viennatours@gmail.com</a></p>
+                
+                <div class="social-icons">
+                    <a href="https://www.instagram.com" class="footer-link">Instagram</a>
+                    <a href="https://www.facebook.com/" class="footer-link">Facebook</a>
+                    <a href="https://www.tiktok.com/" class="footer-link">TikTok</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Методи за плащане:</h4>
+                <div class="payment-methods">
+                    <span class="pay-card">VISA</span>
+                    <span class="pay-card">MasterCard</span>    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
